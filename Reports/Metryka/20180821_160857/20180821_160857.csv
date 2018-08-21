@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Metryka,Chrome 68.0.3440.106,Wejscie na strone + logowanie poprawne + z podzialem z komisja,2018-08-21 16:09:01,2018-08-21 16:09:49,"48,181s",FAILED
+,,,,,,
+Test Cases/Logowanie/Wejscie na strone,Chrome 68.0.3440.106,,2018-08-21 16:09:02,2018-08-21 16:09:31,"29,587s",PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-21 16:09:02,2018-08-21 16:09:09,"6,711s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login11.exe""",Chrome 68.0.3440.106,,2018-08-21 16:09:09,2018-08-21 16:09:09,"0,002s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-21 16:09:09,2018-08-21 16:09:09,"0,055s",PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-21 16:09:09,2018-08-21 16:09:28,"18,785s",PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 68.0.3440.106,,2018-08-21 16:09:28,2018-08-21 16:09:31,"3,021s",PASSED
+doubleClick,Chrome 68.0.3440.106,,2018-08-21 16:09:31,2018-08-21 16:09:31,"0,393s",PASSED
+,,,,,,
+Test Cases/Logowanie/Logowanie poprawne,Chrome 68.0.3440.106,,2018-08-21 16:09:31,2018-08-21 16:09:37,"5,702s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login-correct.exe""",Chrome 68.0.3440.106,,2018-08-21 16:09:32,2018-08-21 16:09:32,"0,002s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-21 16:09:32,2018-08-21 16:09:32,"0,039s",PASSED
+Statement - java.lang.Thread.sleep(5000),Chrome 68.0.3440.106,,2018-08-21 16:09:32,2018-08-21 16:09:37,"5,002s",PASSED
+,,,,,,
+Test Cases/Metryka/Z podzialem z komisja,Chrome 68.0.3440.106,,2018-08-21 16:09:37,2018-08-21 16:09:48,"10,901s",FAILED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-21 16:09:38,2018-08-21 16:09:38,"0,115s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:38,2018-08-21 16:09:38,"0,176s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:38,2018-08-21 16:09:41,"3,507s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:41,2018-08-21 16:09:42,"0,496s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:42,2018-08-21 16:09:42,"0,507s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:42,2018-08-21 16:09:43,"0,391s",PASSED
+waitForElementPresent,Chrome 68.0.3440.106,,2018-08-21 16:09:43,2018-08-21 16:09:43,"0,066s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:43,2018-08-21 16:09:43,"0,287s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:43,2018-08-21 16:09:43,"0,216s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:43,2018-08-21 16:09:44,"0,354s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:44,2018-08-21 16:09:44,"0,319s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:44,2018-08-21 16:09:44,"0,166s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:44,2018-08-21 16:09:45,"0,327s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:45,2018-08-21 16:09:45,"0,404s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:45,2018-08-21 16:09:45,"0,302s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:45,2018-08-21 16:09:45,"0,210s",PASSED
+selectOptionByValue,Chrome 68.0.3440.106,,2018-08-21 16:09:45,2018-08-21 16:09:46,"0,365s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:46,2018-08-21 16:09:46,"0,174s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-21 16:09:46,2018-08-21 16:09:46,"0,230s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:46,2018-08-21 16:09:47,"0,864s",PASSED
+selectOptionByValue,Chrome 68.0.3440.106,,2018-08-21 16:09:47,2018-08-21 16:09:47,"0,373s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-21 16:09:47,2018-08-21 16:09:48,"0,399s",FAILED

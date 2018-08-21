@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Metryka,Chrome 68.0.3440.106,Wejscie na strone + logowanie poprawne + z podzialem z komisja,2018-08-21 15:27:27,2018-08-21 15:28:04,"36,972s",FAILED
+,,,,,,
+Test Cases/Logowanie/Wejscie na strone,Chrome 68.0.3440.106,,2018-08-21 15:27:28,2018-08-21 15:27:56,"28,473s",FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-08-21 15:27:29,2018-08-21 15:27:35,"6,600s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login11.exe""",Chrome 68.0.3440.106,,2018-08-21 15:27:35,2018-08-21 15:27:35,"0,002s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-21 15:27:35,2018-08-21 15:27:35,"0,163s",PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-21 15:27:35,2018-08-21 15:27:53,"17,511s",PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 68.0.3440.106,,2018-08-21 15:27:53,2018-08-21 15:27:56,"3,012s",PASSED
+doubleClick,Chrome 68.0.3440.106,,2018-08-21 15:27:56,2018-08-21 15:27:56,"0,423s",FAILED
+,,,,,,
+Test Cases/Logowanie/Logowanie poprawne,Chrome 68.0.3440.106,,2018-08-21 15:27:56,2018-08-21 15:28:02,"5,567s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login-correct.exe""",Chrome 68.0.3440.106,,2018-08-21 15:27:57,2018-08-21 15:27:57,"0,002s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-21 15:27:57,2018-08-21 15:27:57,"0,023s",PASSED
+Statement - java.lang.Thread.sleep(5000),Chrome 68.0.3440.106,,2018-08-21 15:27:57,2018-08-21 15:28:02,"5,002s",PASSED
+,,,,,,
+Test Cases/Metryka/Z podzialem z komisja,Chrome 68.0.3440.106,,2018-08-21 15:28:02,2018-08-21 15:28:03,"1,058s",FAILED
+click,Chrome 68.0.3440.106,,2018-08-21 15:28:02,2018-08-21 15:28:03,"0,666s",FAILED

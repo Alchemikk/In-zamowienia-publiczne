@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Metryka" time="46" tests="3" failures="0" errors="0">
+   <testsuite name="Metryka" tests="3" failures="0" errors="0" time="46" timestamp="2018-08-21 16:13:06" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Metryka">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180821_161303"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180821_161303\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="a0b819daad6aacf8d6ce53bf33b64bdb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/Wejscie na strone" classname="Test Cases/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-21 16:13:07 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Wejscie na strone: Test Cases/Logowanie/Wejscie na strone
+
+2018-08-21 16:13:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-21 16:13:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-21 16:13:12 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-21 16:13:12 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-21 16:13:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-21 16:13:31 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-21 16:13:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-21 16:13:34 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on
+
+2018-08-21 16:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/Logowanie poprawne" classname="Test Cases/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-21 16:13:34 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Logowanie poprawne: Test Cases/Logowanie/Logowanie poprawne
+
+2018-08-21 16:13:35 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-21 16:13:35 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-21 16:13:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Metryka/Z podzialem z komisja" classname="Test Cases/Metryka/Z podzialem z komisja" status="PASSED">
+         <system-out><![CDATA[2018-08-21 16:13:40 - [TEST_CASE][PASSED] - Test Cases/Metryka/Z podzialem z komisja: Test Cases/Metryka/Z podzialem z komisja
+
+2018-08-21 16:13:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-21 16:13:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-21 16:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-21 16:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-21 16:13:41 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-21 16:13:42 - [MESSAGE][PASSED] - Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-21 16:13:42 - [TEST_STEP][PASSED] - setText: Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-21 16:13:43 - [MESSAGE][PASSED] - Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-21 16:13:43 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018
+Z podziałem z komisją' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-21 16:13:43 - [MESSAGE][PASSED] - Text '556201-N-2018
+Z podziałem z komisją' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-21 16:13:43 - [TEST_STEP][PASSED] - setText: Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-21 16:13:44 - [MESSAGE][PASSED] - Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-21 16:13:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Metryka/input_pakiet1' is present
+
+2018-08-21 16:13:44 - [MESSAGE][PASSED] - Object 'Object Repository/Metryka/input_pakiet1' is present
+
+2018-08-21 16:13:44 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Metryka/input_pakiet1'
+
+2018-08-21 16:13:44 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Metryka/input_pakiet1'
+
+2018-08-21 16:13:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Dodaj' is clicked on
+
+2018-08-21 16:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Dodaj' is clicked on
+
+2018-08-21 16:13:44 - [TEST_STEP][PASSED] - setText: Text 'Kleosin' is set on object 'Object Repository/Metryka/input_description1'
+
+2018-08-21 16:13:44 - [MESSAGE][PASSED] - Text 'Kleosin' is set on object 'Object Repository/Metryka/input_description1'
+
+2018-08-21 16:13:44 - [TEST_STEP][PASSED] - setText: Text '50000' is set on object 'Object Repository/Metryka/input_pakiet2'
+
+2018-08-21 16:13:45 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Metryka/input_pakiet2'
+
+2018-08-21 16:13:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Dodaj2' is clicked on
+
+2018-08-21 16:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Dodaj2' is clicked on
+
+2018-08-21 16:13:45 - [TEST_STEP][PASSED] - setText: Text 'Grajewo' is set on object 'Object Repository/Metryka/input_description2'
+
+2018-08-21 16:13:45 - [MESSAGE][PASSED] - Text 'Grajewo' is set on object 'Object Repository/Metryka/input_description2'
+
+2018-08-21 16:13:45 - [TEST_STEP][PASSED] - setText: Text '30000' is set on object 'Object Repository/Metryka/input_pakiet3'
+
+2018-08-21 16:13:46 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Metryka/input_pakiet3'
+
+2018-08-21 16:13:46 - [TEST_STEP][PASSED] - setText: Text 'P' is set on object 'Object Repository/Metryka/input_person0'
+
+2018-08-21 16:13:46 - [MESSAGE][PASSED] - Text 'P' is set on object 'Object Repository/Metryka/input_person0'
+
+2018-08-21 16:13:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/a_Pastuka Robert' is clicked on
+
+2018-08-21 16:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/a_Pastuka Robert' is clicked on
+
+2018-08-21 16:13:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Metryka/select_Przewodniczcy'  using regular expression
+
+2018-08-21 16:13:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Metryka/select_Przewodniczcy'  using regular expression
+
+2018-08-21 16:13:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_komisja-dodaj' is clicked on
+
+2018-08-21 16:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_komisja-dodaj' is clicked on
+
+2018-08-21 16:13:47 - [TEST_STEP][PASSED] - setText: Text 'B' is set on object 'Object Repository/Metryka/input_person1'
+
+2018-08-21 16:13:47 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Metryka/input_person1'
+
+2018-08-21 16:13:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/a_Bana Maria' is clicked on
+
+2018-08-21 16:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/a_Bana Maria' is clicked on
+
+2018-08-21 16:13:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Metryka/select_przewodniczacy2'  using regular expression
+
+2018-08-21 16:13:48 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Metryka/select_przewodniczacy2'  using regular expression
+
+2018-08-21 16:13:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_komisja-dodaj2' is clicked on
+
+2018-08-21 16:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_komisja-dodaj2' is clicked on
+
+2018-08-21 16:13:48 - [TEST_STEP][PASSED] - setText: Text 'K' is set on object 'Object Repository/Metryka/input_person2'
+
+2018-08-21 16:13:49 - [MESSAGE][PASSED] - Text 'K' is set on object 'Object Repository/Metryka/input_person2'
+
+2018-08-21 16:13:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-21 16:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-21 16:13:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Metryka/select_Przewodniczacy3'  using regular expression
+
+2018-08-21 16:13:50 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Metryka/select_Przewodniczacy3'  using regular expression
+
+2018-08-21 16:13:50 - [TEST_STEP][PASSED] - setText: Text 'B' is set on object 'Object Repository/Metryka/input_User2'
+
+2018-08-21 16:13:50 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Metryka/input_User2'
+
+2018-08-21 16:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/a_Bana Maria' is clicked on
+
+2018-08-21 16:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/a_Bana Maria' is clicked on
+
+2018-08-21 16:13:50 - [TEST_STEP][PASSED] - setText: Text 'K' is set on object 'Object Repository/Metryka/input_User3'
+
+2018-08-21 16:13:50 - [MESSAGE][PASSED] - Text 'K' is set on object 'Object Repository/Metryka/input_User3'
+
+2018-08-21 16:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-21 16:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-21 16:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-21 16:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-21 16:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on
+
+2018-08-21 16:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on
+
+2018-08-21 16:13:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-21 16:13:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-21 16:13:06 - [TEST_SUITE][PASSED] - Metryka: Test Cases/Metryka/Z podzialem z komisja]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Metryka" time="66" tests="2" failures="1" errors="0">
+   <testsuite name="Metryka" tests="2" failures="1" errors="0" time="66" timestamp="2018-08-21 15:51:38" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Metryka">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180821_155135"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180821_155135\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="5676dbd760156cde06f392f9de7ab049"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/Wejscie na strone" classname="Test Cases/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-21 15:51:38 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Wejscie na strone: Test Cases/Logowanie/Wejscie na strone
+
+2018-08-21 15:51:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-21 15:51:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-21 15:51:45 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-21 15:51:45 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-21 15:51:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-21 15:52:02 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-21 15:52:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-21 15:52:05 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on
+
+2018-08-21 15:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/Logowanie poprawne" classname="Test Cases/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-21 15:52:05 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Logowanie poprawne: Test Cases/Logowanie/Logowanie poprawne
+
+2018-08-21 15:52:06 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-21 15:52:06 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-21 15:52:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Metryka/Z podzialem z komisja" classname="Test Cases/Metryka/Z podzialem z komisja" status="FAILED">
+         <failure type="FAILED" message="Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;full-width&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/table[@class=&quot;dataTable&quot;]/tbody[1]/tr[@class=&quot;ng-scope odd&quot;]/td[2]/input[@class=&quot;normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse&quot;]})"/>
+         <system-out><![CDATA[2018-08-21 15:52:11 - [TEST_CASE][FAILED] - Test Cases/Metryka/Z podzialem z komisja: Test Cases/Metryka/Z podzialem z komisja FAILED because (of) Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})
+
+2018-08-21 15:52:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-21 15:52:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-21 15:52:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-21 15:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-21 15:52:12 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-21 15:52:13 - [MESSAGE][PASSED] - Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-21 15:52:13 - [TEST_STEP][PASSED] - setText: Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-21 15:52:13 - [MESSAGE][PASSED] - Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-21 15:52:13 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018
+Z podziałem z komisją' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-21 15:52:14 - [MESSAGE][PASSED] - Text '556201-N-2018
+Z podziałem z komisją' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-21 15:52:14 - [TEST_STEP][PASSED] - setText: Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-21 15:52:14 - [MESSAGE][PASSED] - Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-21 15:52:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Metryka/input_normal ng-untouched ng-v' is not present after 10 second(s)
+
+2018-08-21 15:52:26 - [MESSAGE][WARNING] - Object 'Object Repository/Metryka/input_normal ng-untouched ng-v' is not present after 10 second(s)
+
+2018-08-21 15:52:26 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})
+
+2018-08-21 15:52:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-21 15:52:44 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})]]></system-out>
+         <system-err><![CDATA[2018-08-21 15:52:11 - [TEST_CASE][FAILED] - Test Cases/Metryka/Z podzialem z komisja: Test Cases/Metryka/Z podzialem z komisja FAILED because (of) Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-21 15:51:38 - [TEST_SUITE][FAILED] - Metryka: Test Cases/Metryka/Z podzialem z komisja FAILED because (of) Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})]]></system-out>
+      <system-err><![CDATA[2018-08-21 15:51:38 - [TEST_SUITE][FAILED] - Metryka: Test Cases/Metryka/Z podzialem z komisja FAILED because (of) Unable to double click on object 'Object Repository/Metryka/input_normal ng-untouched ng-v' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-2OLM88US', ip: '192.168.20.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KAJETA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 5676dbd760156cde06f392f9de7ab049
+*** Element info: {Using=xpath, value=id("all")/div[@class="content-wrapper"]/section[@class="content"]/div[@class="ng-scope"]/div[@class="row ng-scope"]/form[@class="form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid ng-valid-required"]/div[@class="full-width"]/div[@class="mt-50 col-sm-10 col-centered"]/div[@class="form-group"]/div[@class="row"]/table[@class="dataTable"]/tbody[1]/tr[@class="ng-scope odd"]/td[2]/input[@class="normal ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse"]})]]></system-err>
+   </testsuite>
+</testsuites>
