@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Metryka" time="44" tests="3" failures="0" errors="0">
+   <testsuite name="Metryka" tests="3" failures="0" errors="0" time="44" timestamp="2018-08-22 12:16:32" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Metryka">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180822_121627"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180822_121627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="61384d5708be0131ad7f3d4b3ffc84ab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/Wejscie na strone" classname="Test Cases/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:16:33 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Wejscie na strone: Test Cases/Logowanie/Wejscie na strone
+
+2018-08-22 12:16:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-22 12:16:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-22 12:16:41 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-22 12:16:41 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 12:16:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 12:17:00 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 12:17:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-22 12:17:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on
+
+2018-08-22 12:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/Logowanie poprawne" classname="Test Cases/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:17:04 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Logowanie poprawne: Test Cases/Logowanie/Logowanie poprawne
+
+2018-08-22 12:17:04 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-22 12:17:04 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 12:17:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Metryka/Bez podzialu bez komisji" classname="Test Cases/Metryka/Bez podzialu bez komisji" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:17:10 - [TEST_CASE][PASSED] - Test Cases/Metryka/Bez podzialu bez komisji: Test Cases/Metryka/Bez podzialu bez komisji
+
+2018-08-22 12:17:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-22 12:17:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-22 12:17:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-22 12:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-22 12:17:10 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-22 12:17:12 - [MESSAGE][PASSED] - Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-22 12:17:12 - [TEST_STEP][PASSED] - setText: Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-22 12:17:13 - [MESSAGE][PASSED] - Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-22 12:17:13 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018 Bez podziału z komisja' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-22 12:17:13 - [MESSAGE][PASSED] - Text '556201-N-2018 Bez podziału z komisja' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-22 12:17:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/input_pakiety-nie' is clicked on
+
+2018-08-22 12:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/input_pakiety-nie' is clicked on
+
+2018-08-22 12:17:14 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Metryka/input_pakietynie-cena'
+
+2018-08-22 12:17:14 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Metryka/input_pakietynie-cena'
+
+2018-08-22 12:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/input_komisja-nie' is clicked on
+
+2018-08-22 12:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/input_komisja-nie' is clicked on
+
+2018-08-22 12:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-22 12:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-22 12:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on
+
+2018-08-22 12:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-22 12:16:32 - [TEST_SUITE][PASSED] - Metryka: Test Cases/Metryka/Bez podzialu bez komisji]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Metryka" time="48" tests="3" failures="0" errors="0">
+   <testsuite name="Metryka" tests="3" failures="0" errors="0" time="48" timestamp="2018-08-22 12:07:59" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Metryka">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180822_120754"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Metryka\\20180822_120754\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="4f9dda754e639133bca5c1850ba9fd40"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/Wejscie na strone" classname="Test Cases/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:08:01 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Wejscie na strone: Test Cases/Logowanie/Wejscie na strone
+
+2018-08-22 12:08:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-22 12:08:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-22 12:08:09 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-22 12:08:09 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 12:08:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 12:08:28 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 12:08:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-22 12:08:31 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on
+
+2018-08-22 12:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/Logowanie poprawne" classname="Test Cases/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:08:32 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Logowanie poprawne: Test Cases/Logowanie/Logowanie poprawne
+
+2018-08-22 12:08:33 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-22 12:08:33 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 12:08:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Metryka/Z podzialem bez komisji" classname="Test Cases/Metryka/Z podzialem bez komisji" status="PASSED">
+         <system-out><![CDATA[2018-08-22 12:08:38 - [TEST_CASE][PASSED] - Test Cases/Metryka/Z podzialem bez komisji: Test Cases/Metryka/Z podzialem bez komisji
+
+2018-08-22 12:08:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-22 12:08:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-22 12:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-22 12:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Nowe postpowanie' is clicked on
+
+2018-08-22 12:08:39 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-22 12:08:40 - [MESSAGE][PASSED] - Text '556201-N-2018' is set on object 'Object Repository/Metryka/input_Number'
+
+2018-08-22 12:08:40 - [TEST_STEP][PASSED] - setText: Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-22 12:08:41 - [MESSAGE][PASSED] - Text 'Przetarg Testowy' is set on object 'Object Repository/Metryka/input_Name'
+
+2018-08-22 12:08:41 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018
+Z podziałem bez komisji' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-22 12:08:41 - [MESSAGE][PASSED] - Text '556201-N-2018
+Z podziałem bez komisji' is set on object 'Object Repository/Metryka/textarea_Description'
+
+2018-08-22 12:08:41 - [TEST_STEP][PASSED] - setText: Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-22 12:08:42 - [MESSAGE][PASSED] - Text 'Białystok' is set on object 'Object Repository/Metryka/input_description0'
+
+2018-08-22 12:08:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Metryka/input_pakiet1' is present
+
+2018-08-22 12:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/Metryka/input_pakiet1' is present
+
+2018-08-22 12:08:42 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Metryka/input_pakiet1'
+
+2018-08-22 12:08:42 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Metryka/input_pakiet1'
+
+2018-08-22 12:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Dodaj' is clicked on
+
+2018-08-22 12:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Dodaj' is clicked on
+
+2018-08-22 12:08:43 - [TEST_STEP][PASSED] - setText: Text 'Kleosin' is set on object 'Object Repository/Metryka/input_description1'
+
+2018-08-22 12:08:44 - [MESSAGE][PASSED] - Text 'Kleosin' is set on object 'Object Repository/Metryka/input_description1'
+
+2018-08-22 12:08:44 - [TEST_STEP][PASSED] - setText: Text '50000' is set on object 'Object Repository/Metryka/input_pakiet2'
+
+2018-08-22 12:08:44 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Metryka/input_pakiet2'
+
+2018-08-22 12:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/button_Dodaj2' is clicked on
+
+2018-08-22 12:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/button_Dodaj2' is clicked on
+
+2018-08-22 12:08:45 - [TEST_STEP][PASSED] - setText: Text 'Grajewo' is set on object 'Object Repository/Metryka/input_description2'
+
+2018-08-22 12:08:45 - [MESSAGE][PASSED] - Text 'Grajewo' is set on object 'Object Repository/Metryka/input_description2'
+
+2018-08-22 12:08:45 - [TEST_STEP][PASSED] - setText: Text '30000' is set on object 'Object Repository/Metryka/input_pakiet3'
+
+2018-08-22 12:08:46 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Metryka/input_pakiet3'
+
+2018-08-22 12:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/input_komisja-nie' is clicked on
+
+2018-08-22 12:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/input_komisja-nie' is clicked on
+
+2018-08-22 12:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-22 12:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/span_Zapisz postpowanie' is clicked on
+
+2018-08-22 12:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on
+
+2018-08-22 12:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te' is clicked on
+
+2018-08-22 12:08:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-22 12:08:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-22 12:07:59 - [TEST_SUITE][PASSED] - Metryka: Test Cases/Metryka/Z podzialem bez komisji]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

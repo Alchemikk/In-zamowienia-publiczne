@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Metryka,Chrome 68.0.3440.106,Wejscie na strone + logowanie poprawne + z podzialem z komisja,2018-08-22 12:16:32,2018-08-22 12:17:17,"44,940s",PASSED
+,,,,,,
+Test Cases/Logowanie/Wejscie na strone,Chrome 68.0.3440.106,,2018-08-22 12:16:33,2018-08-22 12:17:04,"31,166s",PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-22 12:16:33,2018-08-22 12:16:41,"7,841s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login11.exe""",Chrome 68.0.3440.106,,2018-08-22 12:16:41,2018-08-22 12:16:41,"0,001s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-22 12:16:41,2018-08-22 12:16:41,"0,190s",PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-22 12:16:41,2018-08-22 12:17:00,"19,014s",PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 68.0.3440.106,,2018-08-22 12:17:00,2018-08-22 12:17:03,"3,013s",PASSED
+doubleClick,Chrome 68.0.3440.106,,2018-08-22 12:17:03,2018-08-22 12:17:04,"0,350s",PASSED
+,,,,,,
+Test Cases/Logowanie/Logowanie poprawne,Chrome 68.0.3440.106,,2018-08-22 12:17:04,2018-08-22 12:17:09,"5,702s",PASSED
+"Statement - autoit_prj = ""C:\inzamon\login-correct.exe""",Chrome 68.0.3440.106,,2018-08-22 12:17:04,2018-08-22 12:17:04,"0,002s",PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 68.0.3440.106,,2018-08-22 12:17:04,2018-08-22 12:17:04,"0,066s",PASSED
+Statement - java.lang.Thread.sleep(5000),Chrome 68.0.3440.106,,2018-08-22 12:17:04,2018-08-22 12:17:09,"5,007s",PASSED
+,,,,,,
+Test Cases/Metryka/Bez podzialu bez komisji,Chrome 68.0.3440.106,,2018-08-22 12:17:10,2018-08-22 12:17:15,"5,950s",PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-22 12:17:10,2018-08-22 12:17:10,"0,132s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-22 12:17:10,2018-08-22 12:17:10,"0,282s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-22 12:17:10,2018-08-22 12:17:12,"1,396s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-22 12:17:12,2018-08-22 12:17:13,"0,683s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-22 12:17:13,2018-08-22 12:17:13,"0,785s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-22 12:17:13,2018-08-22 12:17:14,"0,261s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-22 12:17:14,2018-08-22 12:17:14,"0,424s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-22 12:17:14,2018-08-22 12:17:14,"0,263s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-22 12:17:14,2018-08-22 12:17:15,"0,316s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-22 12:17:15,2018-08-22 12:17:15,"0,865s",PASSED

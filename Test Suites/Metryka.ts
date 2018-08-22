@@ -4,7 +4,7 @@
    <name>Metryka</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-21T16:13:03</lastRun>
+   <lastRun>2018-08-22T12:16:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -26,7 +26,25 @@
    <testCaseLink>
       <guid>edebf963-d7ac-4b10-89b8-792c64446daf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Metryka/Z podzialem z komisja</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76bb99ea-6e38-4613-b6e7-6423289c6390</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Metryka/Z podzialem bez komisji</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49f9a7b6-5314-4697-81c8-182f3b97111a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Metryka/Bez podzialu z komisja</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e0fa8f3-1ba4-4392-876d-e177b29a29fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metryka/Bez podzialu bez komisji</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

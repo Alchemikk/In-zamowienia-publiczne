@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logowanie" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="Logowanie" tests="2" failures="0" errors="0" time="50" timestamp="2018-08-22 11:21:32" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Logowanie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Logowanie\\20180822_112128"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\In-Zamowienia-Publiczne\\Reports\\Logowanie\\20180822_112128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="4b1565dd51c19bf12932c904620935a2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/Wejscie na strone" classname="Test Cases/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-22 11:21:33 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Wejscie na strone: Test Cases/Logowanie/Wejscie na strone
+
+2018-08-22 11:21:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-22 11:21:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-22 11:21:50 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-22 11:21:50 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 11:21:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 11:22:11 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-22 11:22:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-22 11:22:14 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on
+
+2018-08-22 11:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/input_logowanie-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/Logowanie bledne haslo" classname="Test Cases/Logowanie/Logowanie bledne haslo" status="PASSED">
+         <system-out><![CDATA[2018-08-22 11:22:15 - [TEST_CASE][PASSED] - Test Cases/Logowanie/Logowanie bledne haslo: Test Cases/Logowanie/Logowanie bledne haslo
+
+2018-08-22 11:22:15 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-fail1.exe": null
+
+2018-08-22 11:22:15 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-22 11:22:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-08-22 11:22:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logowanie/p_logowanie-fail' is clicked on
+
+2018-08-22 11:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Logowanie/p_logowanie-fail' is clicked on
+
+2018-08-22 11:22:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Logowanie/p_logowanie-fail' are matched.
+
+2018-08-22 11:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Logowanie/p_logowanie-fail' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-22 11:21:32 - [TEST_SUITE][PASSED] - Logowanie: Test Cases/Logowanie/Logowanie bledne haslo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

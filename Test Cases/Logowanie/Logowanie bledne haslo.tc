@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logowanie bledne haslo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a779e815-bbcb-477f-aba5-342f915b691a</testCaseGuid>
+</TestCaseEntity>
