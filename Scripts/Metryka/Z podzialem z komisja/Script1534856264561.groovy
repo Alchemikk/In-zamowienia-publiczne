@@ -81,5 +81,3 @@ WebUI.click(findTestObject('Object Repository/Metryka/span_Zapisz postpowanie'))
 
 WebUI.click(findTestObject('Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te'))
 
-WebUI.closeBrowser()
-
