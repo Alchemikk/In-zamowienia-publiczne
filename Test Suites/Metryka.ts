@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>edebf963-d7ac-4b10-89b8-792c64446daf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Metryka/Z podzialem z komisja</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>6e0fa8f3-1ba4-4392-876d-e177b29a29fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Metryka/Bez podzialu bez komisji</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
