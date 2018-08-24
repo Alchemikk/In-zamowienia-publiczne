@@ -54,15 +54,9 @@
       <testCaseId>Test Cases/Ogloszenie/Ogloszenie 1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e31bb81c-c173-4ef9-b0f9-4b89f84e04dd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Ogloszenie 2</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>afa80fee-9a96-486c-88de-9db1012138a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Ogloszenie/proba ogloszenie 2</testCaseId>
+      <testCaseId>Test Cases/Ogloszenie/Ogloszenie 2</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
