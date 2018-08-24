@@ -35,11 +35,11 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_SpecialGroupPercent'), '40')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-prolog'))
 
-WebUI.waitForElementPresent(findTestObject('Ogloszenie/span_Przejd dalej'), 10)
+WebUI.waitForElementNotVisible(findTestObject('Ogloszenie/span_Przejd dalej-prolog'), 1)
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd dalej'))
+WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-prolog'))
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/input_FullAccessToDocumentsOfP'))
 
@@ -49,31 +49,23 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/input_SpecificationURLE
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_SpecificationURL'), 'www.gddkia.gov.pl')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s1'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd dalej'))
+WebUI.waitForElementPresent(findTestObject('Ogloszenie/span_Przejd dalej-s1'), 10)
 
-WebUI.click(findTestObject('Ogloszenie/input_II.3)-oferty-wszystkich'))
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_QuantityOfSharedParts'), '3')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_MaxQuantityOfPartsForOne'), '3')
+WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s1'))
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderShortDescription'), 'Opis zamówienia')
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_MainCPV'), '12345678-1')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/input_AdditionalCPVCodesExists'))
+WebUI.click(findTestObject('Ogloszenie/input_AdditionalCPVCodesExists-tak'))
 
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-pristine ng-un'), '1234')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-untouched ng-n'), '12345678-2')
+WebUI.setText(findTestObject('Ogloszenie/input_II.5)dodatkowekody-bezpodzialu'), '12345678-2')
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Dodaj kolejny kod'))
 
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-pristine ng-un_1'), '12345678-3')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-untouched ng-v'), '12345678-3')
+WebUI.setText(findTestObject('Ogloszenie/input_II.5)dodatkowekody-bezpodzialu2'), '12345678-3')
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderValueNet'), '300000')
 
@@ -81,11 +73,11 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_PeriodOfRealizationOrder'), '12')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s2'))
 
-WebUI.waitForElementPresent(findTestObject('Ogloszenie/span_Przejd dalej'), 10)
+WebUI.waitForElementNotPresent(findTestObject('Ogloszenie/span_Przejd dalej-s2'), 1)
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd dalej'))
+WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s2'))
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_purchas'))
 
@@ -103,15 +95,15 @@ WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_DocumentList
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_OtherDocumentList'), 'Oświadczenie III.7)')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s3'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd dalej'))
+WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s3'))
 
-WebUI.click(findTestObject('Ogloszenie/input_IV.1.2)agreementSection_tenderG-nie'))
+WebUI.click(findTestObject('Ogloszenie/input_agreementSection_tenderG-IV.2)-nie'))
 
-WebUI.click(findTestObject('Ogloszenie/input_IV.1.3)agreementSection_advance-nie'))
+WebUI.click(findTestObject('Ogloszenie/input_agreementSection_advance-IV.1.3)-nie'))
 
-WebUI.waitForElementPresent(findTestObject('Ogloszenie/input_IV.1.4)agreementSection_offersI-nie'), 10)
+WebUI.waitForElementPresent(findTestObject('Ogloszenie/input_IV.1.4)agreementSection_offersI-nie'), 4)
 
 WebUI.click(findTestObject('Ogloszenie/input_IV.1.4)agreementSection_offersI-nie'))
 
@@ -125,9 +117,11 @@ WebUI.click(findTestObject('Ogloszenie/input_IV.1.5)agreementSection_variant3-ni
 
 WebUI.click(findTestObject('Ogloszenie/input_IV.1.8)agreementSection_isElect-nie'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s4'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd dalej'))
+WebUI.waitForElementNotPresent(findTestObject('Ogloszenie/span_Przejd dalej-s4'), 1)
+
+WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s4'))
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-pristine ng-un_2'), 'CENA')
 
@@ -155,51 +149,13 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_annulme_1'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Zapisz'))
+WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s42'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/span_Przejd do wypeniania zacz'))
+WebUI.waitForElementNotPresent(findTestObject('Ogloszenie/span_Zakocz tworzenie ogoszeni'), 1)
 
-WebUI.scrollToElement(findTestObject('Ogloszenie/td_Dodatkowy kod CPV'), 1)
+WebUI.click(findTestObject('Ogloszenie/span_Zakocz tworzenie ogoszeni'))
 
-WebUI.setText(findTestObject('Ogloszenie/input_zalacznik-dodatkowyCPV'), '12341234-1')
+WebUI.click(findTestObject('Ogloszenie/button_potwierdzenie-Tak'))
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Dodaj kod CPV'))
-
-WebUI.setText(findTestObject('Ogloszenie/input_zalacznik-dodatkowyCPV2'), '12341234-2')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderValueNet'), '100000')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_Currency'), 'PLN')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_PeriodOfRealizationOrder'), '10')
-
-WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Zapisz zacznik dla czci'))
-
-WebUI.waitForElementPresent(findTestObject('Ogloszenie/label_GWNY KOD CPV'), 10)
-
-WebUI.setText(findTestObject('Ogloszenie/input_zalacznik2-dodatkowyCPV'), '12345678-5')
-
-WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Dodaj kod CPV'))
-
-WebUI.setText(findTestObject('null'), '56785678-1')
-
-WebUI.click(findTestObject('Object Repository/Ogloszenie/div_Zacznik 2 z 3'))
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderValueNet'), '50000')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_Currency'), 'PLN')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_PeriodOfRealizationOrder'), '12')
-
-WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Zapisz zacznik dla czci'))
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderValueNet'), '30000')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_Currency'), 'PLN')
-
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_PeriodOfRealizationOrder'), '12')
-
-WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Zapisz zacznik dla czci'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Ogloszenie/li_Numer 556203-N-2018-weryfikacja'))
 

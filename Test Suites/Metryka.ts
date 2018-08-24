@@ -4,7 +4,7 @@
    <name>Metryka</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-23T14:19:33</lastRun>
+   <lastRun>2018-08-24T08:46:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>edebf963-d7ac-4b10-89b8-792c64446daf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Metryka/Z podzialem z komisja</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>49f9a7b6-5314-4697-81c8-182f3b97111a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Metryka/Bez podzialu z komisja</testCaseId>
    </testCaseLink>
    <testCaseLink>

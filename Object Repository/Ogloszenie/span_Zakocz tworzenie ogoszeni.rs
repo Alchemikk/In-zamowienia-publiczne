@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IV.1.5)agreementSection_variant-nie</name>
+   <name>span_Zakocz tworzenie ogoszeni</name>
    <tag></tag>
-   <elementGuidId>18211eb6-eac3-4274-bdbb-0790175d8eb3</elementGuidId>
+   <elementGuidId>52af3ec7-cb54-4277-97db-e6c6cc35607b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[11]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_variantOfferIsObligatory']) = count(//input[@type = 'radio' and @name = 'agreementSection_variantOfferIsObligatory'])]</value>
+         <value>id(&quot;finishOrderNotice&quot;)[count(. | //span[@id = 'finishOrderNotice' and (text() = 'Zakończ tworzenie ogłoszenia' or . = 'Zakończ tworzenie ogłoszenia')]) = count(//span[@id = 'finishOrderNotice' and (text() = 'Zakończ tworzenie ogłoszenia' or . = 'Zakończ tworzenie ogłoszenia')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,55 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-disabled</name>
-      <type>Main</type>
-      <value>!isEditable</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>radio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>model.variantOfferIsObligatoryAgreementId</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>agreementSection_variantOfferIsObligatory</value>
+      <value>finishOrderNotice</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+      <value>btn btn-finish oneRow navigationBtn mrg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>endOfOrderNotice</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>!savedSection_4_2 &amp;&amp; submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Zakończ tworzenie ogłoszenia</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[11]/div[3]/div/p[2]/input</value>
+      <value>id(&quot;finishOrderNotice&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IV.1.4)agreementSection_offersI2-nie</name>
+   <name>input_DeadlineForSubmissionOff_1</name>
    <tag></tag>
-   <elementGuidId>230737a6-3196-4fc5-a816-b30056142e16</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible']) = count(//input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>805039c2-2d75-4573-a9ba-572b3784bd04</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -27,52 +21,66 @@
       <value>!isEditable</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>radio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>DeadlineForSubmissionOffersToParticipateInProcedureTime</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>agreementSection_offersInElectronicFormIsPossible</value>
+      <value>DeadlineForSubmissionOffersToParticipateInProcedureTime</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Podaj godzinę</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-required</name>
       <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId == -1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-untouched ng-valid ng-not-empty ng-valid-required ng-dirty ng-valid-parse</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>model.deadlineForSubmissionOffersToParticipateInProcedureTime</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input</value>
+      <value>id(&quot;DeadlineForSubmissionOffersToParticipateInProcedureTime&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

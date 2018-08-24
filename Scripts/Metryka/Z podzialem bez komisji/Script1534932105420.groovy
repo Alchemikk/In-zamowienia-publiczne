@@ -23,11 +23,11 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Object Repository/Metryka/button_Nowe postpowanie'))
 
-WebUI.setText(findTestObject('Object Repository/Metryka/input_Number'), '556201-N-2018')
+WebUI.setText(findTestObject('Object Repository/Metryka/input_Number'), '556202-N-2018')
 
 WebUI.setText(findTestObject('Object Repository/Metryka/input_Name'), 'Przetarg Testowy')
 
-WebUI.setText(findTestObject('Object Repository/Metryka/textarea_Description'), '556201-N-2018\r\nZ podziałem bez komisji')
+WebUI.setText(findTestObject('Object Repository/Metryka/textarea_Description'), '556202-N-2018\r\nZ podziałem bez komisji')
 
 WebUI.setText(findTestObject('Object Repository/Metryka/input_description0'), 'Białystok')
 

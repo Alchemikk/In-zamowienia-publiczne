@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IV.1.4)agreementSection_offersI2-nie</name>
+   <name>button_II.5)Dodaj kolejny kod-bezpodzialu</name>
    <tag></tag>
-   <elementGuidId>230737a6-3196-4fc5-a816-b30056142e16</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible']) = count(//input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6d227271-48e8-4bb8-8d5f-2a079274b59a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,7 +11,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,52 +21,45 @@
       <value>!isEditable</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>radio</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>agreementSection_offersInElectronicFormIsPossible</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-required</name>
-      <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId == -1</value>
+      <value>addCPV(item)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-untouched ng-valid ng-not-empty ng-valid-required ng-dirty ng-valid-parse</value>
+      <value>btn btn-success maxWidth</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>!item.isAdd</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dodaj kolejny kod</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input</value>
+      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-date ng-dirty ng-valid-parse&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[@class=&quot;form-group validation-summary-errors widthUnset&quot;]/div[@class=&quot;row&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[2]/button[@class=&quot;btn btn-success maxWidth&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

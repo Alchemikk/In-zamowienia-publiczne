@@ -19,23 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Object Repository/Metryka/button_Nowe postpowanie'))
-
-WebUI.setText(findTestObject('Object Repository/Metryka/input_Number'), '556204-N-2018')
-
-WebUI.setText(findTestObject('Object Repository/Metryka/input_Name'), 'Przetarg Testowy')
-
-WebUI.setText(findTestObject('Metryka/textarea_Description'), '556204-N-2018 Bez podziału bez komisji')
-
-WebUI.click(findTestObject('Metryka/input_pakiety-nie'))
-
-WebUI.setText(findTestObject('Metryka/input_pakietynie-cena'), '100000')
-
-WebUI.click(findTestObject('Metryka/input_komisja-nie'))
-
-WebUI.click(findTestObject('Object Repository/Metryka/span_Zapisz postpowanie'))
-
-WebUI.click(findTestObject('Object Repository/Metryka/h3_556201-N-2018 - Przetarg Te'))
-

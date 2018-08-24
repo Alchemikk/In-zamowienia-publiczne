@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IV.1.5)agreementSection_variant-nie</name>
+   <name>span_Zapisz-s42</name>
    <tag></tag>
-   <elementGuidId>18211eb6-eac3-4274-bdbb-0790175d8eb3</elementGuidId>
+   <elementGuidId>0d20d42f-b1ab-4a0a-a150-70d683cfe241</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[11]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_variantOfferIsObligatory']) = count(//input[@type = 'radio' and @name = 'agreementSection_variantOfferIsObligatory'])]</value>
+         <value>id(&quot;submitButton&quot;)[count(. | //span[@id = 'submitButton' and (text() = 'Zapisz' or . = 'Zapisz')]) = count(//span[@id = 'submitButton' and (text() = 'Zapisz' or . = 'Zapisz')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submitButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-flat oneRow</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,43 +43,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>radio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>model.variantOfferIsObligatoryAgreementId</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>agreementSection_variantOfferIsObligatory</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+      <value>Zapisz</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[11]/div[3]/div/p[2]/input</value>
+      <value>id(&quot;submitButton&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

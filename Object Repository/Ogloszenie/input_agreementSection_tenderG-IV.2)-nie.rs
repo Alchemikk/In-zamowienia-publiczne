@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IV.1.4)agreementSection_offersI2-nie</name>
+   <name>input_agreementSection_tenderG-IV.2)-nie</name>
    <tag></tag>
-   <elementGuidId>230737a6-3196-4fc5-a816-b30056142e16</elementGuidId>
+   <elementGuidId>be8b9654-fa5c-4a5f-b7b6-862c45585f6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible']) = count(//input[@type = 'radio' and @name = 'agreementSection_offersInElectronicFormIsPossible'])]</value>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[4]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_tenderGuaranteeIsObligatory']) = count(//input[@type = 'radio' and @name = 'agreementSection_tenderGuaranteeIsObligatory'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId</value>
+      <value>model.tenderGuaranteeIsObligatoryAgreementId</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,27 +52,34 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>agreementSection_offersInElectronicFormIsPossible</value>
+      <value>agreementSection_tenderGuaranteeIsObligatory</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-required</name>
       <type>Main</type>
-      <value>model.offersInElectronicFormIsPossibleAgreementId == -1</value>
+      <value>model.tenderGuaranteeIsObligatoryAgreementId == -1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-untouched ng-valid ng-not-empty ng-valid-required ng-dirty ng-valid-parse</value>
+      <value>ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[9]/div[3]/div/p[2]/input</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[4]/div[3]/div/p[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,6 +4,12 @@
    <name>span_Przejd dalej</name>
    <tag></tag>
    <elementGuidId>05e04413-3518-4733-aea1-ca8199dd7bbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;nextStepButton&quot;)[count(. | //span[@id = 'nextStepButton' and (text() = 'Przejdź dalej' or . = 'Przejdź dalej')]) = count(//span[@id = 'nextStepButton' and (text() = 'Przejdź dalej' or . = 'Przejdź dalej')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>Przejdź dalej</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
