@@ -4,7 +4,7 @@
    <name>Ogloszenie</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-24T11:16:49</lastRun>
+   <lastRun>2018-08-29T14:29:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -54,7 +54,7 @@
       <testCaseId>Test Cases/Ogloszenie/Ogloszenie 1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>afa80fee-9a96-486c-88de-9db1012138a5</guid>
+      <guid>b9a61ed3-5f60-4394-aba2-9d953bafd4da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Ogloszenie/Ogloszenie 2</testCaseId>

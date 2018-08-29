@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[6]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_advancePaymentIsPossible']) = count(//input[@type = 'radio' and @name = 'agreementSection_advancePaymentIsPossible'])]</value>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[7]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_advancePaymentIsPossible']) = count(//input[@type = 'radio' and @name = 'agreementSection_advancePaymentIsPossible'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -80,6 +80,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[6]/div[3]/div/p[2]/input</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[7]/div[3]/div/p[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,6 +4,12 @@
    <name>input_orderNoticeGoalRadioSect</name>
    <tag></tag>
    <elementGuidId>9d584cf7-621c-45a3-bc75-48d714a1cbe1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[3]/div[3]/div[3]/div/p[1]/input[count(. | //input[@type = 'radio' and @name = 'orderNoticeGoalRadioSection']) = count(//input[@type = 'radio' and @name = 'orderNoticeGoalRadioSection'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -63,17 +69,17 @@
       <value>ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[3]/div[3]/div[3]/div/p[1]/input</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-dirty ng-valid-parse&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[2]/div[@class=&quot;form-group validation-summary-errors widthUnset&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/p[@class=&quot;ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

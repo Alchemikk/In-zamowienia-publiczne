@@ -4,6 +4,12 @@
    <name>input_normal ng-pristine ng-un_2</name>
    <tag></tag>
    <elementGuidId>37ebdfba-9f61-4d53-9bd2-7ac62a3bcdc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[5]/div[3]/table/tbody/tr[2]/td[1]/input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -67,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-date&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[@class=&quot;form-group validation-summary-errors widthUnset&quot;]/div[@class=&quot;row&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[1]/input[@class=&quot;normal ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[5]/div[3]/table/tbody/tr[2]/td[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

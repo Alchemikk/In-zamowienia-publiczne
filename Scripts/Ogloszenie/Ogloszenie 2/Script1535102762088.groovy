@@ -51,11 +51,13 @@ WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_SpecificationUR
 
 WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s1'))
 
-WebUI.waitForElementPresent(findTestObject('Ogloszenie/span_Przejd dalej-s1'), 10)
+WebUI.waitForElementNotVisible(findTestObject('Ogloszenie/span_Przejd dalej-s1'), 1)
 
 WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s1'))
 
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderShortDescription'), 'Opis zamówienia')
+WebUI.scrollToElement(findTestObject('Ogloszenie/label_II.4) Krtki opis przedmi'), 10)
+
+WebUI.setText(findTestObject('Ogloszenie/textarea_OrderShortDescription'), 'Opis zamówienia')
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_MainCPV'), '12345678-1')
 
@@ -67,9 +69,11 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Dodaj kolejny ko
 
 WebUI.setText(findTestObject('Ogloszenie/input_II.5)dodatkowekody-bezpodzialu2'), '12345678-3')
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_OrderValueNet'), '300000')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/input_agreementSection_additio'))
+WebUI.click(findTestObject('Ogloszenie/sekcja 2 z 4/input_agreementSection_additio-II.7)-nie'))
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_PeriodOfRealizationOrder'), '12')
 
@@ -87,7 +91,7 @@ WebUI.click(findTestObject('Object Repository/Ogloszenie/input_excludedByArt24Us
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/input_excludedByArt24Ust5pkt5P'))
 
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_DocumentListOfArt25Us'), 'Oswiadczenie III.4)')
+WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_DocumentListOfArt25Us'), 'Oświadczenie III.4)')
 
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_DocumentListOfFulfilC'), 'Oświadczenie III.5)')
 
@@ -97,9 +101,11 @@ WebUI.setText(findTestObject('Object Repository/Ogloszenie/textarea_OtherDocumen
 
 WebUI.click(findTestObject('Ogloszenie/span_Zapisz-s3'))
 
+WebUI.waitForElementNotVisible(findTestObject('Ogloszenie/span_Przejd dalej-s3'), 1)
+
 WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s3'))
 
-WebUI.click(findTestObject('Ogloszenie/input_agreementSection_tenderG-IV.2)-nie'))
+WebUI.click(findTestObject('Ogloszenie/input_agreementSection_tenderG-IV.2)-nie-nowy'))
 
 WebUI.click(findTestObject('Ogloszenie/input_agreementSection_advance-IV.1.3)-nie'))
 
@@ -123,11 +129,13 @@ WebUI.waitForElementNotPresent(findTestObject('Ogloszenie/span_Przejd dalej-s4')
 
 WebUI.click(findTestObject('Ogloszenie/span_Przejd dalej-s4'))
 
+WebUI.clearText(findTestObject('Ogloszenie/input_normal ng-pristine ng-un_2'))
+
 WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-pristine ng-un_2'), 'CENA')
 
-WebUI.click(findTestObject('Object Repository/Ogloszenie/td'))
+WebUI.clearText(findTestObject('Ogloszenie/input_normal ng-pristine ng-va'))
 
-WebUI.setText(findTestObject('Object Repository/Ogloszenie/input_normal ng-pristine ng-un_3'), '60')
+WebUI.setText(findTestObject('Ogloszenie/input_normal ng-pristine ng-va'), '60')
 
 WebUI.click(findTestObject('Object Repository/Ogloszenie/button_Dodaj kolejny'))
 
@@ -157,5 +165,5 @@ WebUI.click(findTestObject('Ogloszenie/span_Zakocz tworzenie ogoszeni'))
 
 WebUI.click(findTestObject('Ogloszenie/button_potwierdzenie-Tak'))
 
-WebUI.click(findTestObject('Ogloszenie/li_Numer 556203-N-2018-weryfikacja'))
+WebUI.verifyElementText(findTestObject('Ogloszenie/p_weryfikator'), '556203-N-2018 Bez podziału z komisja')
 

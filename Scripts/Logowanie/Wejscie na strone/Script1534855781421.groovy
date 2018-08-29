@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 String autoit_prj = 'C:\\inzamon\\login11.exe'
 
 Runtime.getRuntime().exec(autoit_prj)

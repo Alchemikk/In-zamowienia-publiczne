@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-valid-maxlength ng-not-empty ng-dirty ng-valid-number ng-valid ng-valid-required</value>
+      <value>form-control ng-pristine ng-valid-maxlength ng-not-empty ng-valid ng-valid-required ng-touched</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

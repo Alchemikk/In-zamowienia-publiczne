@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-valid-maxlength ng-valid-date ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[16]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/p[@class=&quot;ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;][count(. | //input[@type = 'radio' and @name = 'agreementSection_isElectronicAuction']) = count(//input[@type = 'radio' and @name = 'agreementSection_isElectronicAuction'])]</value>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[17]/div[2]/div[3]/div/p[2]/input[count(. | //input[@type = 'radio' and @name = 'agreementSection_isElectronicAuction']) = count(//input[@type = 'radio' and @name = 'agreementSection_isElectronicAuction'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -73,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[16]/div[2]/div[3]/div/p[2]/input</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div[2]/div[17]/div[2]/div[3]/div/p[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

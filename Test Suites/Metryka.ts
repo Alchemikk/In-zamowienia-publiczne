@@ -4,7 +4,7 @@
    <name>Metryka</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-24T08:46:43</lastRun>
+   <lastRun>2018-08-28T13:45:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

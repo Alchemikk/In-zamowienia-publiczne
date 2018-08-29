@@ -4,6 +4,12 @@
    <name>input_OrderShortDescription</name>
    <tag></tag>
    <elementGuidId>172fffe2-1ffd-48de-8f68-4f1416332732</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;OrderShortDescription&quot;][count(. | //input[@id = 'OrderShortDescription' and @name = 'OrderShortDescription']) = count(//input[@id = 'OrderShortDescription' and @name = 'OrderShortDescription'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>OrderShortDescription</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -77,10 +83,10 @@
       <value>required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;OrderShortDescription&quot;)</value>
+      <value>//*[@id=&quot;OrderShortDescription&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

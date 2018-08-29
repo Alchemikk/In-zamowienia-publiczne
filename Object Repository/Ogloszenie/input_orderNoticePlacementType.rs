@@ -65,15 +65,15 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>required</value>
+      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-valid-maxlength ng-valid ng-valid-required&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[2]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/p[@class=&quot;ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>required</name>
       <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[2]/div[@class=&quot;form-group validation-summary-errors widthUnset&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/p[@class=&quot;ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;]</value>
+      <value>required</value>
    </webElementProperties>
 </WebElementEntity>

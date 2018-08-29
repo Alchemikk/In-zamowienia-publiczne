@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;nextStepButton&quot;)[count(. | //span[@id = 'nextStepButton' and (text() = 'Przejdź dalej' or . = 'Przejdź dalej')]) = count(//span[@id = 'nextStepButton' and (text() = 'Przejdź dalej' or . = 'Przejdź dalej')])]</value>
+         <value>id(&quot;nextStepButton&quot;)[count(. | //span[@id = 'nextStepButton']) = count(//span[@id = 'nextStepButton'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,7 +41,7 @@
       <value>!savedSection_3 &amp;&amp; submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
